@@ -1,0 +1,153 @@
+#descripcionContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#descripcionContainer h1{
+    font-family: "Poppins", sans-serif;
+}
+
+#descripcionCont2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#descripcionCont2 textarea{
+    width: 10%;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+}
+
+#descripcionCont2 button{
+    width: 10%;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+    border: none;
+    background-color: rgb(47, 7, 190);
+}
+
+#estudiantesContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+#estudiantesContainer h3{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+#sinBono{
+    margin-left: 25px;
+    margin-right: 25px; 
+}
+
+#bonoPlata{
+    margin-left: 25px;
+    margin-right: 25px; 
+}
+
+#bonoOro{
+    margin-left: 25px;
+    margin-right: 25px; 
+}
+
+#sinBonoContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+
+#bonoPlataContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#bonoOroContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.Estudiante{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(250, 215, 215);
+    border-radius: 5px;
+    margin-top: 25px;
+}
+
+.buttonDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    width: 100%;
+    padding-left: 25px;
+    padding-bottom: 15px;
+}
+
+.cursoCont{
+    text-align: left;
+    padding-left: 25px;
+    padding-top: 10px;
+    font-family: "Poppins", sans-serif;
+    margin: 5px;
+    width: 100%;
+    font-size: 10px;
+    font-weight:normal;
+}
+
+.estudiante{
+    position: relative;
+    display: flex;
+    padding-left: 25px;
+    font-family: "Poppins", sans-serif;
+    margin: 10px;
+    width: 100%;
+}
+
+.eliminarBtn{
+  width:15px;
+  height:15px;
+  background-color:#ff0000;
+  margin: 5px;
+  padding:10px;
+  border-radius: 50px;
+}
+
+.avanceBtn{
+    width:15px;
+    height:15px;
+    background-color:#0400ff;
+    margin: 5px;
+    padding:10px;
+    border-radius: 50px;
+}
+
